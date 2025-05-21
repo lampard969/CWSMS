@@ -1,0 +1,65 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.card-custom {
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  background: #fff;
+  padding: 2rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.navbar-custom {
+  background: #1a237e !important;
+  color: #fff !important;
+}
+
+.navbar-custom .nav-link, .navbar-custom .btn {
+  color: #fff !important;
+}
+
+.navbar-custom .btn.btn-outline-primary {
+  border-color: #fff;
+  color: #fff;
+}
+
+.navbar-custom .btn.btn-primary {
+  background: #3949ab;
+  border: none;
+}
+
+.navbar-custom .btn.btn-primary.active, .navbar-custom .btn.btn-primary:focus {
+  background: #283593;
+}
+
+.footer-custom {
+  background: #1a237e;
+  color: #fff;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-top: 2rem;
+}
+
+.animate__animated {
+  animation-duration: 0.7s;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #283593;
+}
+
+input:focus, select:focus {
+  border-color: #3949ab !important;
+  box-shadow: 0 0 0 0.2rem rgba(57,73,171,.15) !important;
+}
+
+.toast-container {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+}
