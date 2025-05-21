@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CWSMS Backend
 
 This is a Node.js and Express backend project for CWSMS.
@@ -22,3 +23,7 @@ The server will run on http://localhost:3001 by default.
 
 ## Next Steps
 - Add routes, controllers, and models as needed for your application.
+=======
+# CWSMS
+car wash 
+>>>>>>> 08b3bd9b3cf65ba1b2481ed8f806ab71f232cbe7
